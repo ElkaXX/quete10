@@ -1,0 +1,25 @@
+<!-- $sql = "CREATE TABLE Clients(
+                        Id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                        Nom VARCHAR(30) NOT NULL,
+                        Prenom VARCHAR(30) NOT NULL,
+                        Adresse VARCHAR(70) NOT NULL,
+                        Ville VARCHAR(30) NOT NULL,
+                        Codepostal INT UNSIGNED NOT NULL,
+                        Pays VARCHAR(30) NOT NULL,
+                        Mail VARCHAR(50) NOT NULL,
+                        DateInscription TIMESTAMP,
+                        UNIQUE(Mail))";
+                
+                $dbco->exec($sql);
+                echo 'Table bien créée !'; -->
+
+
+
+
+              <a href="index.php?id=<?php echo $member['id']?>&updateOne"><button>Update</button></a> <br>
+
+             
+
+    
+
+            // $test->displayMembers();
